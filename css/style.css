@@ -1,0 +1,47 @@
+.bb-alert {
+position: fixed;
+bottom: 25%;
+right: -355px;
+margin-bottom: 0px;
+font-size: 1.2em;
+padding: 1em 1.3em;
+z-index: 2000;
+}
+
+.thumb {
+	height: 75px;
+	border: 1px solid #000;
+	margin: 10px 5px 0 0;
+}
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+#bar_blank {
+	border: solid 1px #000;
+	height: 20px;
+	width: 300px;
+}
+#bar_color {
+	background-color: #006666;
+	height: 20px;
+	width: 0px;
+}
+#bar_blank, #hidden_iframe {
+	display: none;
+}
