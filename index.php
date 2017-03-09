@@ -70,7 +70,7 @@
                       for($i=0; $i<$total; $i++){
 
                          $filename  = $_FILES['files']['tmp_name'][$i];
-                         $client_id = "de02d3457db74cd";
+                         $client_id = "xxxxxxxxxxxxxxxxxxx";
                          $handle    = fopen($filename, "r");
                          $data 	   = fread($handle, filesize($filename));
                          $pvars     = array('image' => base64_encode($data));
